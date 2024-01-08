@@ -27,7 +27,7 @@ namespace TrybeHotel.Repository
 
             var query = from cityElement in _context.Cities
                         where cityElement.Name == city.Name
-                        select new CityDto() { cityId = city.CityId, name = city.Name };
+                        select new CityDto() { cityId = cityElement.CityId, name = cityElement.Name };
 
             return query.First();
 
