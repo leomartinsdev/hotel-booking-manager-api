@@ -26,7 +26,7 @@ namespace TrybeHotel.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] UserDtoInsert user)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); //oi
         }
     }
 }
