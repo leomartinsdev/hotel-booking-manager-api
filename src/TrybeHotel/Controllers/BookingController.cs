@@ -47,9 +47,20 @@ namespace TrybeHotel.Controllers
 
 
         [HttpGet("{Bookingid}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "Client")]
         public IActionResult GetBooking(int Bookingid)
         {
-            throw new NotImplementedException();
-        }
+            var userEmail = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            if (userEmail == null)
+            {
+                return Unauthorized();
+            }
+
+            var response = _repository.GetBooking(Bookingid, userEmail);
+
+            if (response is null) return Unauthorized();
+
+            return Ok(response);        }
     }
 }

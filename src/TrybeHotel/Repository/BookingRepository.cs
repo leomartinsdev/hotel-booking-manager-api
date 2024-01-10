@@ -67,7 +67,35 @@ namespace TrybeHotel.Repository
 
         public BookingResponse GetBooking(int bookingId, string email)
         {
-            throw new NotImplementedException();
+            var booking = _context.Bookings.Include(u => u.User).FirstOrDefault(b => b.BookingId == bookingId);
+
+            if (booking.User.Email != email) return null;
+
+            var responseBook = _context.Bookings
+                    .Include(b => b.Room).ThenInclude(r => r.Hotel).ThenInclude(h => h.City).FirstOrDefault(b => b.BookingId == bookingId);
+
+            return new BookingResponse()
+            {
+                bookingId = responseBook.BookingId,
+                checkIn = responseBook.CheckIn,
+                checkOut = responseBook.CheckOut,
+                guestQuant = responseBook.GuestQuant,
+                room = new RoomDto()
+                {
+                    roomId = responseBook.Room.RoomId,
+                    name = responseBook.Room.Name,
+                    capacity = responseBook.Room.Capacity,
+                    image = responseBook.Room.Image,
+                    hotel = new HotelDto()
+                    {
+                        hotelId = responseBook.Room.Hotel.HotelId,
+                        name = responseBook.Room.Hotel.Name,
+                        address = responseBook.Room.Hotel.Address,
+                        cityId = responseBook.Room.Hotel.CityId,
+                        cityName = responseBook.Room.Hotel.City.Name
+                    }
+                }
+            };
         }
 
         public Room GetRoomById(int RoomId)
