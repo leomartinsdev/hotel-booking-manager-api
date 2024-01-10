@@ -9,8 +9,6 @@ namespace TrybeHotel.Controllers
 {
     [ApiController]
     [Route("hotel")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-    [Authorize(Policy = "admin")]
     public class HotelController : Controller
     {
         private readonly IHotelRepository _repository;
@@ -19,17 +17,21 @@ namespace TrybeHotel.Controllers
         {
             _repository = repository;
         }
-        
+
         // 4. Desenvolva o endpoint GET /hotel
         [HttpGet]
-        public IActionResult GetHotels(){
+        public IActionResult GetHotels()
+        {
             var response = _repository.GetHotels();
             return StatusCode(200, response);
         }
 
         // 5. Desenvolva o endpoint POST /hotel
         [HttpPost]
-        public IActionResult PostHotel([FromBody] Hotel hotel){
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "admin")]
+        public IActionResult PostHotel([FromBody] Hotel hotel)
+        {
             var response = _repository.AddHotel(hotel);
             return StatusCode(201, response);
         }
