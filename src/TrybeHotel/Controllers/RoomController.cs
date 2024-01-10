@@ -32,8 +32,8 @@ namespace TrybeHotel.Controllers
         {
             try
             {
-            var response = _repository.AddRoom(room);
-            return StatusCode(201, response);
+                var response = _repository.AddRoom(room);
+                return StatusCode(201, response);
             }
             catch (Exception ex)
             {
@@ -43,6 +43,8 @@ namespace TrybeHotel.Controllers
 
         // 8. Desenvolva o endpoint DELETE /room/:roomId
         [HttpDelete("{RoomId}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "admin")]
         public IActionResult Delete(int RoomId)
         {
             _repository.DeleteRoom(RoomId);
