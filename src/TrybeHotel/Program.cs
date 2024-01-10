@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using TrybeHotel.Models;
 using TrybeHotel.Services;
 using System.Security.Claims;
+using System.ComponentModel.DataAnnotations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,7 +55,8 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(options =>
 {
-    
+    options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Email).RequireClaim(ClaimTypes.Role, "admin"));
+    options.AddPolicy("Client", policy => policy.RequireClaim(ClaimTypes.Email));
 });
 
 var app = builder.Build();
