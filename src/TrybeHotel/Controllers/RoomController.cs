@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TrybeHotel.Models;
 using TrybeHotel.Repository;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
@@ -17,20 +16,39 @@ namespace TrybeHotel.Controllers
             _repository = repository;
         }
 
+        // 6. Desenvolva o endpoint GET /room/:hotelId
         [HttpGet("{HotelId}")]
-        public IActionResult GetRoom(int HotelId){
-            throw new NotImplementedException();
+        public IActionResult GetRoom(int HotelId)
+        {
+            var response = _repository.GetRooms(HotelId);
+            return StatusCode(200, response);
         }
 
+        // 7. Desenvolva o endpoint POST /room
         [HttpPost]
-        public IActionResult PostRoom([FromBody] Room room){
-            throw new NotImplementedException();
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "admin")]
+        public IActionResult PostRoom([FromBody] Room room)
+        {
+            try
+            {
+                var response = _repository.AddRoom(room);
+                return StatusCode(201, response);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
+        // 8. Desenvolva o endpoint DELETE /room/:roomId
         [HttpDelete("{RoomId}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "admin")]
         public IActionResult Delete(int RoomId)
         {
-             throw new NotImplementedException();
+            _repository.DeleteRoom(RoomId);
+            return StatusCode(204);
         }
     }
 }
