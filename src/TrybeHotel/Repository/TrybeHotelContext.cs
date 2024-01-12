@@ -28,6 +28,7 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
         modelBuilder.Entity<Room>().HasMany(b => b.Bookings).WithOne(a => a.Room).HasForeignKey(b => b.RoomId);
         // modelBuilder.Entity<User>().HasMany(b => b.Bookings).WithOne(a => a.User).HasForeignKey(b => b.BookingId);
         modelBuilder.Entity<Booking>().HasOne(b => b.User).WithMany(a => a.Bookings).HasForeignKey(b => b.UserId);
+
     }
 
 }
