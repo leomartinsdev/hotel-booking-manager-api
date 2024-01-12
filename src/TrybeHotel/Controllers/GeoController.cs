@@ -42,9 +42,16 @@ namespace TrybeHotel.Controllers
         [Route("address")]
         public async Task<IActionResult> GetHotelsByLocation([FromBody] GeoDto address)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var hotelsDistances = await _geoService.GetHotelsByGeo(address, _repository);
+
+                return StatusCode(201, hotelsDistances);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
-
-
 }
