@@ -15,7 +15,12 @@ namespace TrybeHotel.Repository
         public IEnumerable<CityDto> GetCities()
         {
             IEnumerable<CityDto> Cities = from city in _context.Cities
-                                          select new CityDto() { cityId = city.CityId, name = city.Name };
+                                          select new CityDto()
+                                          {
+                                              cityId = city.CityId,
+                                              name = city.Name,
+                                              state = city.State
+                                          };
             return Cities.ToList();
         }
 
