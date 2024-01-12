@@ -32,7 +32,8 @@ namespace TrybeHotel.Controllers
         [HttpPut]
         public IActionResult PutCity([FromBody] City city)
         {
-            throw new NotImplementedException();
+            var response = _repository.UpdateCity(city);
+            return StatusCode(200, response);
         }
     }
 }
