@@ -15,12 +15,20 @@ namespace TrybeHotel.Repository
         public IEnumerable<HotelDto> GetHotels()
         {
             IEnumerable<HotelDto> Hotels = from hotel in _context.Hotels
-                                            join city in _context.Cities on hotel.CityId equals city.CityId
-                                            select new HotelDto() { hotelId = hotel.HotelId, name = hotel.Name, address = hotel.Address, cityId = city.CityId, cityName = city.Name };
+                                           join city in _context.Cities on hotel.CityId equals city.CityId
+                                           select new HotelDto()
+                                           {
+                                               hotelId = hotel.HotelId,
+                                               name = hotel.Name,
+                                               address = hotel.Address,
+                                               cityId = city.CityId,
+                                               cityName = city.Name,
+                                               state = city.State
+                                           };
 
             return Hotels.ToList();
         }
-        
+
         // 5. Desenvolva o endpoint POST /hotel
         public HotelDto AddHotel(Hotel hotel)
         {

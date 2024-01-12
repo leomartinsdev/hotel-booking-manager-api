@@ -51,27 +51,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/CityDto.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -82,48 +61,6 @@
                   "startColumn": 24,
                   "endLine": 17,
                   "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 23,
-                  "endLine": 23,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
-                "region": {
-                  "startLine": 24,
-                  "startColumn": 23,
-                  "endLine": 24,
-                  "endColumn": 31
                 }
               }
             }
@@ -208,6 +145,69 @@
                   "startColumn": 19,
                   "endLine": 12,
                   "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/CityDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 23,
+                  "endLine": 24,
+                  "endColumn": 31
                 }
               }
             }
@@ -345,6 +345,48 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Image' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 19,
+                  "endLine": 11,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "Non-nullable property 'name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -376,6 +418,48 @@
                   "startColumn": 25,
                   "endLine": 8,
                   "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 19,
+                  "endLine": 10,
+                  "endColumn": 26
                 }
               }
             }
@@ -450,37 +534,16 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/HotelDto.cs",
                 "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Image' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 19,
-                  "endLine": 11,
-                  "endColumn": 24
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 28
                 }
               }
             }
@@ -534,48 +597,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 19,
-                  "endLine": 10,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'Cities' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -775,27 +796,6 @@
                   "startColumn": 12,
                   "endLine": 16,
                   "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Controllers/GeoController.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 42,
-                  "endLine": 27,
-                  "endColumn": 51
                 }
               }
             }
@@ -817,6 +817,27 @@
                   "startColumn": 35,
                   "endLine": 16,
                   "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Controllers/GeoController.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 42,
+                  "endLine": 27,
+                  "endColumn": 51
                 }
               }
             }
@@ -868,27 +889,6 @@
           }
         },
         {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 54,
-                  "endLine": 28,
-                  "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS8602",
           "level": "warning",
           "message": "Dereference of a possibly null reference.",
@@ -922,6 +922,27 @@
                   "startColumn": 61,
                   "endLine": 32,
                   "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 54,
+                  "endLine": 28,
+                  "endColumn": 68
                 }
               }
             }
