@@ -29,7 +29,8 @@ namespace TrybeHotel.Repository
                                                  name = room.Hotel.Name,
                                                  address = room.Hotel.Address,
                                                  cityId = room.Hotel.CityId,
-                                                 cityName = room.Hotel.City.Name
+                                                 cityName = room.Hotel.City.Name,
+                                                 state = room.Hotel.City.State
                                              }
                                          };
 
