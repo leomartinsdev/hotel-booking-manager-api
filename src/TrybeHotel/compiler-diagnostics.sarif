@@ -31,6 +31,7 @@
           "ruleId": "CS8618",
           "level": "warning",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           "message": "Non-nullable property 'Secret' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
@@ -54,15 +55,21 @@
           "ruleId": "CS8618",
           "level": "warning",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/UserDto.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 23,
                   "startColumn": 23,
@@ -84,10 +91,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/UserDto.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 24,
                   "startColumn": 23,
@@ -105,11 +116,18 @@
           "ruleId": "CS8618",
           "level": "warning",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Secret' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Services/TokenOptions.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenOptions.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -126,6 +144,7 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
           "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -254,10 +273,13 @@
           "level": "warning",
 =======
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Dto/UserDto.cs",
                 "region": {
@@ -389,6 +411,9 @@
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/User.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/User.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 9,
                   "startColumn": 19,
@@ -410,10 +435,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/User.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/User.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/User.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 10,
                   "startColumn": 19,
@@ -435,10 +464,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/User.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/User.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/User.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 11,
                   "startColumn": 19,
@@ -460,10 +493,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/User.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/User.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/User.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 19,
@@ -485,6 +522,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/City.cs",
                 "region": {
                   "startLine": 10,
@@ -492,11 +530,17 @@
                   "endLine": 10,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 16,
                   "startColumn": 23,
                   "endLine": 16,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 27
                 }
               }
@@ -510,12 +554,19 @@
           "ruleId": "CS8618",
           "level": "warning",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 17,
                   "startColumn": 23,
@@ -536,7 +587,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/UserDto.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 18,
                   "startColumn": 23,
@@ -553,6 +608,7 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
           "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
@@ -670,6 +726,18 @@
                   "endLine": 8,
                   "endColumn": 30
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+          "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/BookingDto.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 24,
+                  "endLine": 17,
+                  "endColumn": 28
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 }
               }
             }
@@ -686,10 +754,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/Room.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/Room.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 9,
                   "startColumn": 19,
@@ -711,10 +783,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Models/Room.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Room.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/Room.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 11,
                   "startColumn": 19,
@@ -732,6 +808,7 @@
           "ruleId": "CS8618",
           "level": "warning",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           "message": "Non-nullable property 'name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
@@ -742,6 +819,17 @@
                   "startLine": 4,
                   "startColumn": 23,
                   "endLine": 4,
+=======
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 27
                 }
               }
@@ -754,6 +842,7 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
           "message": "Non-nullable property 'address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -805,6 +894,17 @@
                   "startLine": 8,
                   "startColumn": 23,
                   "endLine": 8,
+=======
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 28
                 }
               }
@@ -817,11 +917,39 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
+=======
+          "message": "Non-nullable property 'userType' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/Hotel.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 9,
                   "startColumn": 19,
@@ -842,7 +970,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/Hotel.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/Hotel.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 10,
                   "startColumn": 19,
@@ -859,11 +991,60 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
+=======
+          "message": "Non-nullable property 'name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/RoomDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 25,
+                  "endLine": 6,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'image' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/RoomDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 25,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/City.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/City.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 11,
                   "startColumn": 23,
@@ -884,7 +1065,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Models/City.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Models/City.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 23,
@@ -901,11 +1086,102 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
+=======
+          "message": "Non-nullable property 'name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 23,
+                  "endLine": 4,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'cityName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/HotelDto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
+          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Dto/CityDto.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Dto/CityDto.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 5,
                   "startColumn": 23,
@@ -922,6 +1198,7 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+<<<<<<< HEAD
           "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -944,10 +1221,13 @@
           "ruleId": "CS8618",
           "level": "warning",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "message": "Non-nullable property 'Cities' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
@@ -956,11 +1236,17 @@
                   "endLine": 13,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
                   "endLine": 12,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -978,6 +1264,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 13,
@@ -985,11 +1272,17 @@
                   "endLine": 13,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
                   "endLine": 12,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1007,6 +1300,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 13,
@@ -1014,11 +1308,17 @@
                   "endLine": 13,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
                   "endLine": 12,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1036,6 +1336,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 13,
@@ -1043,11 +1344,17 @@
                   "endLine": 13,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
                   "endLine": 12,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1065,6 +1372,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 13,
@@ -1072,11 +1380,17 @@
                   "endLine": 13,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
                   "endLine": 12,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1094,6 +1408,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 17,
@@ -1106,6 +1421,13 @@
                   "startColumn": 12,
                   "endLine": 16,
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1123,6 +1445,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 17,
@@ -1135,6 +1458,13 @@
                   "startColumn": 12,
                   "endLine": 16,
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1152,6 +1482,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 17,
@@ -1164,6 +1495,13 @@
                   "startColumn": 12,
                   "endLine": 16,
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1181,6 +1519,7 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
                   "startLine": 17,
@@ -1193,6 +1532,13 @@
                   "startColumn": 12,
                   "endLine": 16,
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1209,6 +1555,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/TrybeHotelContext.cs",
                 "region": {
@@ -1710,6 +2057,13 @@
                   "startColumn": 17,
                   "endLine": 73,
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/TrybeHotelContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12,
+                  "endLine": 15,
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -1726,6 +2080,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
@@ -1961,6 +2316,9 @@
             {
               "resultFile": {
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 27,
                   "startColumn": 24,
@@ -1981,7 +2339,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 32,
                   "startColumn": 20,
@@ -2002,7 +2364,74 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 20,
+                  "endLine": 34,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 57,
+                  "endLine": 29,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 61,
+                  "endLine": 32,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 44,
                   "startColumn": 24,
@@ -2023,7 +2452,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 51,
                   "startColumn": 23,
@@ -2038,13 +2471,272 @@
           }
         },
         {
+<<<<<<< HEAD
+=======
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 66,
+                  "endLine": 24,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 26,
+                  "endLine": 33,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 72,
+                  "endLine": 42,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 98,
+                  "endLine": 42,
+                  "endColumn": 99
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 29,
+                  "endLine": 46,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 30,
+                  "endLine": 52,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 35,
+                  "endLine": 58,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 36,
+                  "endLine": 62,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 24,
+                  "endLine": 67,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 40,
+                  "endLine": 57,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 44,
+                  "endLine": 60,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'entity' in 'EntityEntry<Room> DbSet<Room>.Remove(Room entity)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 35,
+                  "endLine": 74,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "ruleId": "CS8604",
           "level": "warning",
           "message": "Possible null reference argument for parameter 'latitudeOrigin' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 67,
                   "startColumn": 50,
@@ -2065,7 +2757,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 67,
                   "startColumn": 68,
@@ -2086,7 +2782,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 67,
                   "startColumn": 86,
@@ -2107,7 +2807,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 67,
                   "startColumn": 105,
@@ -2122,13 +2826,227 @@
           }
         },
         {
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 17,
+                  "endLine": 73,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 17,
+                  "endLine": 73,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 53,
+                  "endLine": 73,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 60,
+                  "endLine": 76,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 86,
+                  "endLine": 76,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 29,
+                  "endLine": 80,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 30,
+                  "endLine": 86,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 35,
+                  "endLine": 92,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 36,
+                  "endLine": 96,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 44,
+                  "endLine": 107,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
           "ruleId": "CA1050",
           "level": "note",
           "message": "Declare types in namespaces",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Program.cs",
                 "region": {
@@ -2137,11 +3055,17 @@
                   "endLine": 85,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Program.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 99,
                   "startColumn": 22,
                   "endLine": 99,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 29
                 }
               }
@@ -2151,6 +3075,7 @@
             {
               "physicalLocation": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Program.cs",
                 "region": {
                   "startLine": 11,
@@ -2158,11 +3083,17 @@
                   "endLine": 11,
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Program.cs",
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 10,
                   "startColumn": 1,
                   "endLine": 10,
+<<<<<<< HEAD
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                   "endColumn": 4
                 }
               }
@@ -2180,10 +3111,14 @@
             {
               "resultFile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-b/src/TrybeHotel/Services/TokenGenerator.cs",
 =======
                 "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/TokenGenerator.cs",
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+                "uri": "file:///home/leodev/Trybe/Projetos/csharp-030-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenGenerator.cs",
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
                 "region": {
                   "startLine": 42,
                   "startColumn": 32,

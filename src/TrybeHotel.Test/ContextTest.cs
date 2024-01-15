@@ -12,6 +12,7 @@ public class ContextTest : DbContext, ITrybeHotelContext
     public virtual DbSet<Room> Rooms { get; set; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Booking> Bookings { get; set; }
@@ -20,6 +21,10 @@ public class ContextTest : DbContext, ITrybeHotelContext
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Booking> Bookings { get; set; }
 >>>>>>> faseC/leonardo-martins-trybe-hotel-c
+=======
+    public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<Booking> Bookings { get; set; }
+>>>>>>> faseD/leonardo-martins-trybe-hotel-d
     public ContextTest(DbContextOptions<ContextTest> options) : base(options)
     { }
 
