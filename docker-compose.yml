@@ -1,3 +1,7 @@
+# Esse docker-compose é usado para rodar um container MySQL como seu banco de dados.
+# Para usá-lo, execute no terminal: docker-compose up -d --build
+# Também é necessário fazer os ajustes no arquivo TrybeHotelContext.
+
 version: '3'
 services:
   dbmysql:
@@ -7,6 +11,8 @@ services:
       - 3308:3306
     environment:
       - MYSQL_ROOT_PASSWORD=123456
+    env_file:
+      - .env
     restart: 'always'
 
 # Esse software foi construído inicialmente para se conectar a um banco Microsoft SQL Server. Porém, devido ao fato

@@ -51,6 +51,48 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Room.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Image' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Room.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 19,
+                  "endLine": 11,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
           "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -135,36 +177,15 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/CityDto.cs",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 5,
                   "startColumn": 23,
-                  "endLine": 16,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 23,
-                  "endLine": 17,
+                  "endLine": 5,
                   "endColumn": 28
                 }
               }
@@ -177,16 +198,16 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/BookingDto.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 23,
-                  "endLine": 18,
-                  "endColumn": 31
+                  "startLine": 17,
+                  "startColumn": 24,
+                  "endLine": 17,
+                  "endColumn": 28
                 }
               }
             }
@@ -286,6 +307,111 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Hotel.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 19,
+                  "endLine": 9,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Hotel.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 19,
+                  "endLine": 10,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/UserDto.cs",
                 "region": {
                   "startLine": 8,
@@ -345,69 +471,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'room' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/BookingDto.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 24,
-                  "endLine": 17,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Room.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Image' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Room.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 19,
-                  "endLine": 11,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -439,48 +502,6 @@
                   "startColumn": 25,
                   "endLine": 8,
                   "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Hotel.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 19,
-                  "endLine": 9,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Models/Hotel.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 19,
-                  "endLine": 10,
-                  "endColumn": 26
                 }
               }
             }
@@ -576,32 +597,11 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'state' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Dto/CityDto.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 23,
-                  "endLine": 5,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'Cities' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
@@ -622,7 +622,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
@@ -643,7 +643,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
@@ -664,7 +664,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
@@ -685,7 +685,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 12,
@@ -706,7 +706,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 12,
@@ -727,7 +727,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 12,
@@ -748,7 +748,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 12,
@@ -769,7 +769,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 12,
@@ -790,75 +790,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/TrybeHotelContext.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/HotelManagerContext.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 12,
                   "endLine": 15,
                   "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 24,
-                  "endLine": 27,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 32,
-                  "startColumn": 20,
-                  "endLine": 32,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 20,
-                  "endLine": 34,
-                  "endColumn": 24
                 }
               }
             }
@@ -901,69 +838,6 @@
                   "startColumn": 61,
                   "endLine": 32,
                   "endColumn": 76
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 24,
-                  "endLine": 44,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Dereference of a possibly null reference.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 51,
-                  "startColumn": 23,
-                  "endLine": 51,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 24,
-                  "endLine": 67,
-                  "endColumn": 28
                 }
               }
             }
@@ -1141,81 +1015,18 @@
           }
         },
         {
-          "ruleId": "CS8604",
+          "ruleId": "CS8603",
           "level": "warning",
-          "message": "Possible null reference argument for parameter 'latitudeOrigin' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "message": "Possible null reference return.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/UserRepository.cs",
                 "region": {
-                  "startLine": 67,
-                  "startColumn": 50,
-                  "endLine": 67,
-                  "endColumn": 66
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'longitudeOrigin' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 68,
-                  "endLine": 67,
-                  "endColumn": 84
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'latitudeDestiny' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 86,
-                  "endLine": 67,
-                  "endColumn": 103
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'longitudeDestiny' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
-                "region": {
-                  "startLine": 67,
-                  "startColumn": 105,
-                  "endLine": 67,
-                  "endColumn": 122
+                  "startLine": 34,
+                  "startColumn": 20,
+                  "endLine": 34,
+                  "endColumn": 24
                 }
               }
             }
@@ -1258,6 +1069,27 @@
                   "startColumn": 44,
                   "endLine": 60,
                   "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 24,
+                  "endLine": 67,
+                  "endColumn": 28
                 }
               }
             }
@@ -1483,12 +1315,180 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 24,
+                  "endLine": 27,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Repository/BookingRepository.cs",
                 "region": {
                   "startLine": 107,
                   "startColumn": 44,
                   "endLine": 107,
                   "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 24,
+                  "endLine": 44,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 23,
+                  "endLine": 51,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'latitudeOrigin' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 50,
+                  "endLine": 67,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'longitudeOrigin' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 68,
+                  "endLine": 67,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'latitudeDestiny' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 86,
+                  "endLine": 67,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'longitudeDestiny' in 'int GeoService.CalculateDistance(string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/leodev/Projects/hotel-booking-manager-api/src/HotelManagerAPI/Services/GeoService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 105,
+                  "endLine": 67,
+                  "endColumn": 122
                 }
               }
             }

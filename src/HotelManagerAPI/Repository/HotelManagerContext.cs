@@ -18,13 +18,19 @@ public class HotelManagerAPIContext : DbContext, IHotelManagerAPIContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            var connectionString = "Server=monorail.proxy.rlwy.net;User Id=root;Password=ggcBdEcG3H3e6AF6FhbGgfGfceAHHeg4;Port=59778;Database=railway;";
+            string server = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
+            string user = Environment.GetEnvironmentVariable("DB_USER") ?? "root";
+            string password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "123456";
+            string port = Environment.GetEnvironmentVariable("DB_PORT") ?? "3308";
+            string database = Environment.GetEnvironmentVariable("DB_DATABASE") ?? "hotel_manager_db";
+
+            var connectionString = $"Server={server};User Id={user};Password={password};Port={port};Database={database};";
             optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), null);
         }
         /*
         Para usar com SQL Server, use a connection string abaixo.
         To Use with SQL Server, use the connection string below.
-        optionsBuilder.UseSqlServer(@"Server=localhost;Database=HotelManager;User=SA;Password=HotelManager!;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer(@"Server={server};Database={database};User={user};Password={password};TrustServerCertificate=True;");
         */
     }
 
