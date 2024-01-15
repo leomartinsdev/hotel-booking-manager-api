@@ -59,17 +59,8 @@ namespace TrybeHotel.Repository
                         name = addedBooking.Room.Hotel.Name,
                         address = addedBooking.Room.Hotel.Address,
                         cityId = addedBooking.Room.Hotel.CityId,
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        cityName = addedBooking.Room.Hotel.City.Name
-=======
                         cityName = addedBooking.Room.Hotel.City.Name,
                         state = addedBooking.Room.Hotel.City.State
->>>>>>> faseC/leonardo-martins-trybe-hotel-c
-=======
-                        cityName = addedBooking.Room.Hotel.City.Name,
-                        state = addedBooking.Room.Hotel.City.State
->>>>>>> faseD/leonardo-martins-trybe-hotel-d
                     }
                 }
             };
@@ -102,17 +93,8 @@ namespace TrybeHotel.Repository
                         name = responseBook.Room.Hotel.Name,
                         address = responseBook.Room.Hotel.Address,
                         cityId = responseBook.Room.Hotel.CityId,
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        cityName = responseBook.Room.Hotel.City.Name
-=======
                         cityName = responseBook.Room.Hotel.City.Name,
                         state = responseBook.Room.Hotel.City.State
->>>>>>> faseC/leonardo-martins-trybe-hotel-c
-=======
-                        cityName = responseBook.Room.Hotel.City.Name,
-                        state = responseBook.Room.Hotel.City.State
->>>>>>> faseD/leonardo-martins-trybe-hotel-d
                     }
                 }
             };

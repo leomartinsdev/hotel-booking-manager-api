@@ -5,13 +5,6 @@ namespace TrybeHotel.Dto {
         public string address { get; set; }
         public int cityId { get; set; }
         public string cityName { get; set; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         public string state { get; set; }
->>>>>>> faseC/leonardo-martins-trybe-hotel-c
-=======
-        public string state { get; set; }
->>>>>>> faseD/leonardo-martins-trybe-hotel-d
     }
 }
