@@ -6,7 +6,10 @@ using Microsoft.IdentityModel.Tokens;
 using TrybeHotel.Models;
 using TrybeHotel.Services;
 using System.Security.Claims;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations;
+=======
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +23,10 @@ builder.Services.AddScoped<IHotelRepository, HotelRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
+<<<<<<< HEAD
+=======
+builder.Services.AddHttpClient<IGeoService, GeoService>();
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -28,6 +35,20 @@ builder.Services.AddControllersWithViews()
                 .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddHttpClient();
 
+<<<<<<< HEAD
+=======
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy  =>
+                      {
+                          policy.WithOrigins("https://nominatim.openstreetmap.org",
+                                              "https://openstreetmap.org");
+                      });
+});
+
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 
 builder.Services.Configure<TokenOptions>(
     builder.Configuration.GetSection(TokenOptions.Token)
@@ -55,8 +76,13 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(options =>
 {
+<<<<<<< HEAD
     options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Email).RequireClaim(ClaimTypes.Role, "admin"));
     options.AddPolicy("Client", policy => policy.RequireClaim(ClaimTypes.Email));
+=======
+    options.AddPolicy("Client", policy => policy.RequireClaim(ClaimTypes.Email));
+    options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Email).RequireClaim(ClaimTypes.Role, "admin"));
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 });
 
 var app = builder.Build();
@@ -71,12 +97,22 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+<<<<<<< HEAD
+=======
+app.UseRouting();
+
+// app.UseCors(MyAllowSpecificOrigins);
+app.UseCors(c => c.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 
 app.UseAuthentication();
 
 app.UseAuthorization();
 
+<<<<<<< HEAD
 app.UseCors(c => c.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+=======
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
 
 app.MapControllers();
 

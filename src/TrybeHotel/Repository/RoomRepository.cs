@@ -29,7 +29,12 @@ namespace TrybeHotel.Repository
                                                  name = room.Hotel.Name,
                                                  address = room.Hotel.Address,
                                                  cityId = room.Hotel.CityId,
+<<<<<<< HEAD
                                                  cityName = room.Hotel.City.Name
+=======
+                                                 cityName = room.Hotel.City.Name,
+                                                 state = room.Hotel.City.State
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
                                              }
                                          };
 
@@ -56,7 +61,12 @@ namespace TrybeHotel.Repository
                                 name = roomElement.Hotel.Name,
                                 address = roomElement.Hotel.Address,
                                 cityId = roomElement.Hotel.CityId,
+<<<<<<< HEAD
                                 cityName = roomElement.Hotel.City.Name
+=======
+                                cityName = roomElement.Hotel.City.Name,
+                                state = roomElement.Hotel.City.State
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
                             }
                         };
 

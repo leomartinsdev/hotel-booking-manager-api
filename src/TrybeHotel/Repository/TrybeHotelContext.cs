@@ -9,7 +9,10 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     public DbSet<Room> Rooms { get; set; }
     public DbSet<Booking> Bookings { get; set; }
     public DbSet<User> Users { get; set; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
     public TrybeHotelContext(DbContextOptions<TrybeHotelContext> options) : base(options)
     {
         Seeder.SeedUserAdmin(this);
@@ -29,6 +32,10 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
         modelBuilder.Entity<Room>().HasMany(b => b.Bookings).WithOne(a => a.Room).HasForeignKey(b => b.RoomId);
         // modelBuilder.Entity<User>().HasMany(b => b.Bookings).WithOne(a => a.User).HasForeignKey(b => b.BookingId);
         modelBuilder.Entity<Booking>().HasOne(b => b.User).WithMany(a => a.Bookings).HasForeignKey(b => b.UserId);
+<<<<<<< HEAD
+=======
+
+>>>>>>> faseC/leonardo-martins-trybe-hotel-c
     }
 
 }
