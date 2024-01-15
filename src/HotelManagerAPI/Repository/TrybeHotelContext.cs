@@ -16,7 +16,16 @@ public class HotelManagerAPIContext : DbContext, IHotelManagerAPIContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        if (!optionsBuilder.IsConfigured)
+        {
+            var connectionString = "Server=monorail.proxy.rlwy.net;User Id=root;Password=ggcBdEcG3H3e6AF6FhbGgfGfceAHHeg4;Port=59778;Database=railway;";
+            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), null);
+        }
+        /*
+        Para usar com SQL Server, use a connection string abaixo.
+        To Use with SQL Server, use the connection string below.
         optionsBuilder.UseSqlServer(@"Server=localhost;Database=HotelManager;User=SA;Password=HotelManager!;TrustServerCertificate=True;");
+        */
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

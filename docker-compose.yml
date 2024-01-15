@@ -1,11 +1,30 @@
 version: '3'
 services:
-  db:
-    image: mcr.microsoft.com/azure-sql-edge:latest
-    container_name: hotel_booking_manager_db
+  dbmysql:
+    image: mysql:8.0.21
+    container_name: hotel_manager_db_mysql
     ports:
-        - 1433:1433
+      - 3308:3306
     environment:
-      - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=HotelManager!
-      - MSSQL_PID=Developer
+      - MYSQL_ROOT_PASSWORD=123456
+    restart: 'always'
+
+# Esse software foi construído inicialmente para se conectar a um banco Microsoft SQL Server. Porém, devido ao fato
+# de que plataformas grátis não aceitam esse banco (como Railway), resolvi migrar o banco de dados para MySQL, podendo assim
+# publicar o projeto em plataformas grátis. Para voltar para MySQL, use o docker-compose abaixo.
+
+# This software was initially built to connect to a Microsoft SQL Server database. However, due to the fact
+# that free platforms do not accept this database (like Railway), I decided to migrate the database to MySQL, thus being able to
+# publish the project on free platforms. To switch back to MySQL, use the docker-compose below.
+
+#version: '3'
+#services:
+#  db:
+#    image: mcr.microsoft.com/azure-sql-edge:latest
+#    container_name: hotel_booking_manager_db
+#    ports:
+#        - 1433:1433
+#    environment:
+#      - ACCEPT_EULA=Y
+#      - MSSQL_SA_PASSWORD=HotelManager!
+#      - MSSQL_PID=Developer
