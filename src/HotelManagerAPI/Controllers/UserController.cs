@@ -19,6 +19,7 @@ namespace HotelManagerAPI.Controllers
             _repository = repository;
         }
 
+        /// <summary>Lista todos os usuários. </summary>
         [HttpGet]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "admin")]
@@ -32,6 +33,7 @@ namespace HotelManagerAPI.Controllers
             return Ok(users);
         }
 
+        /// <summary>Cadastra um usuário. </summary>
         [HttpPost]
         public IActionResult Add([FromBody] UserDtoInsert user)
         {

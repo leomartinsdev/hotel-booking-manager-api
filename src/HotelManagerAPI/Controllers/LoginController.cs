@@ -18,6 +18,7 @@ namespace HotelManagerAPI.Controllers
             _repository = repository;
         }
 
+        /// <summary>Loga um usuário. </summary>
         [HttpPost]
         public IActionResult Login([FromBody] LoginDto login)
         {

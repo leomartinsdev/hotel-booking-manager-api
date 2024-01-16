@@ -15,8 +15,8 @@ namespace HotelManagerAPI.Controllers
         {
             _repository = repository;
         }
-
-        // 6. Desenvolva o endpoint GET /room/:hotelId
+        
+        /// <summary>Busca um quarto pelo Id. </summary>
         [HttpGet("{HotelId}")]
         public IActionResult GetRoom(int HotelId)
         {
@@ -24,7 +24,7 @@ namespace HotelManagerAPI.Controllers
             return StatusCode(200, response);
         }
 
-        // 7. Desenvolva o endpoint POST /room
+        /// <summary>Cadastra um quarto. </summary>
         [HttpPost]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "admin")]
@@ -41,7 +41,7 @@ namespace HotelManagerAPI.Controllers
             }
         }
 
-        // 8. Desenvolva o endpoint DELETE /room/:roomId
+        /// <summary>Deleta um quarto. </summary>
         [HttpDelete("{RoomId}")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "admin")]

@@ -22,7 +22,7 @@ namespace HotelManagerAPI.Controllers
             _geoService = geoService;
         }
 
-        // 11. Desenvolva o endpoint GET /geo/status
+        /// <summary>Retorna o status. </summary>
         [HttpGet]
         [Route("status")]
         public async Task<IActionResult> GetStatus()
@@ -37,7 +37,7 @@ namespace HotelManagerAPI.Controllers
             return Ok(status);
         }
 
-        // 12. Desenvolva o endpoint GET /geo/address
+        /// <summary>Busca a distância de cada hotel. </summary>
         [HttpGet]
         [Route("address")]
         public async Task<IActionResult> GetHotelsByLocation([FromBody] GeoDto address)

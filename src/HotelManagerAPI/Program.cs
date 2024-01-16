@@ -6,6 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using HotelManagerAPI.Models;
 using HotelManagerAPI.Services;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Components.Web;
+using System.ComponentModel;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,16 +25,28 @@ builder.Services.AddHttpClient<IGeoService, GeoService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    string file = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    string path = Path.Combine(AppContext.BaseDirectory, file);
+    options.IncludeXmlComments(path);
+
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Hotel Booking Manager API",
+        Description = "Software de booking de várias redes de hóteis no formato de uma RESTful API com operações de CRUD.",
+        Version = "v1"
+    });
+});
 builder.Services.AddControllersWithViews()
                 .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddHttpClient();
 
-var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
-                      policy  =>
+                      policy =>
                       {
                           policy.WithOrigins("https://nominatim.openstreetmap.org",
                                               "https://openstreetmap.org");

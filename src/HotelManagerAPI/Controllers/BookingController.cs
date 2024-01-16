@@ -20,6 +20,7 @@ namespace HotelManagerAPI.Controllers
             _repository = repository;
         }
 
+        /// <summary>Cadastra uma reserva (booking). </summary>
         [HttpPost]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "Client")]
@@ -45,7 +46,7 @@ namespace HotelManagerAPI.Controllers
             }
         }
 
-
+        /// <summary>Busca uma reserva (booking). </summary>
         [HttpGet("{Bookingid}")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "Client")]

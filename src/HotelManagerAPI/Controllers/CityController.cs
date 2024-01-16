@@ -14,6 +14,7 @@ namespace HotelManagerAPI.Controllers
             _repository = repository;
         }
 
+        /// <summary>Lista todas as cidades. </summary>
         [HttpGet]
         public IActionResult GetCities()
         {
@@ -21,6 +22,7 @@ namespace HotelManagerAPI.Controllers
             return StatusCode(200, cities);
         }
 
+        /// <summary>Cadastra uma cidade. </summary>
         [HttpPost]
         public IActionResult PostCity([FromBody] City city)
         {
@@ -28,7 +30,7 @@ namespace HotelManagerAPI.Controllers
             return StatusCode(201, response);
         }
 
-        // 3. Desenvolva o endpoint PUT /city
+        /// <summary>Atualiza uma cidade. </summary>
         [HttpPut]
         public IActionResult PutCity([FromBody] City city)
         {

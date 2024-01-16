@@ -5,7 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>HotelManagerAPI</RootNamespace>
-    <ErrorLog>compiler-diagnostics.sarif</ErrorLog> 
+    <ErrorLog>compiler-diagnostics.sarif</ErrorLog>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

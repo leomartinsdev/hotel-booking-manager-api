@@ -18,7 +18,7 @@ namespace HotelManagerAPI.Controllers
             _repository = repository;
         }
 
-        // 4. Desenvolva o endpoint GET /hotel
+        /// <summary>Lista todos os hotéis. </summary>
         [HttpGet]
         public IActionResult GetHotels()
         {
@@ -26,7 +26,7 @@ namespace HotelManagerAPI.Controllers
             return StatusCode(200, response);
         }
 
-        // 5. Desenvolva o endpoint POST /hotel
+        /// <summary>Cadastra um hotel. </summary>
         [HttpPost]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "admin")]

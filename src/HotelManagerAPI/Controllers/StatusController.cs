@@ -7,6 +7,7 @@ namespace HotelManagerAPI.Controllers
     [Route("/")]
     public class StatusController : Controller
     {
+        /// <summary>Identifica se a API está online. </summary>
         [HttpGet]
         public IActionResult GetMessage()
         {
