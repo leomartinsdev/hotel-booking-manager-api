@@ -2,7 +2,7 @@
 Software de booking de várias redes de hóteis no formato de uma RESTful API com operações de CRUD.
 <br><br>
 O projeto foi feito utilizando C#, ASP.NET Core, .NET 6.0, Entity Framework Core (ORM) e MySQL (inicialmente foi desenvolvido com MS SQL Server) para gerenciamento do banco de dados e dockerizado para fácil execução em qualquer máquina.<br><br>
-A autenticação e autorização foi feita com JWT.<br><br>
+A autenticação e autorização foi feita com JWT. Os testes estão sendo desenvolvidos usando xUnit.<br><br>
 Deploys:
 - Banco de Dados: Railway
 - API: Heroku
@@ -27,7 +27,7 @@ Deploys:
 6)  Entre em src/HotelManagerAPI e inicie o projeto: `dotnet run`;
 
 ## Tabelas:
-Os testes estão sendo desenvolvidos usando xUnit.![drawSQL-hotel-manager-api-export-2024-01-16](https://github.com/leomartinsdev/hotel-booking-manager-api/assets/117598788/0ee92086-8d1e-4824-85a6-718bc43b8780)
+![drawSQL-hotel-manager-api-export-2024-01-16](https://github.com/leomartinsdev/hotel-booking-manager-api/assets/117598788/0ee92086-8d1e-4824-85a6-718bc43b8780)
 - Cities: armazena um conjunto de cidades nas quais os hotéis estão localizados. Uma cidade pode ter vários hotéis.
 - Hotels: armazena os hotéis da aplicação. Um hotel pode ter vários quartos.
 - Rooms: armazena os quartos de cada hotel. Um quarto pode ter várias reservas.
