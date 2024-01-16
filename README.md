@@ -34,5 +34,8 @@ Deploys:
 - Users: armazena as pessoas usuárias do sistema. Um usuário pode ter várias reservas.
 - Bookings: armazena as reservas dos quartos de hotéis.
   
+## Documentação (em desenvolvimento):
+![Screenshot from 2024-01-16 16-34-00](https://github.com/leomartinsdev/hotel-booking-manager-api/assets/117598788/d4e17cfb-c617-4514-8858-f6d4431a0b8b)
+
 ## Rodando os testes:
 1)  Para rodar os testes: `dotnet test`
