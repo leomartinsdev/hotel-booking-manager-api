@@ -1,6 +1,5 @@
 # Esse docker-compose é usado para rodar um container MySQL como seu banco de dados.
 # Para usá-lo, execute no terminal: docker-compose up -d --build
-# Também é necessário fazer os ajustes no arquivo TrybeHotelContext.
 
 version: '3'
 services:
@@ -17,11 +16,11 @@ services:
 
 # Esse software foi construído inicialmente para se conectar a um banco Microsoft SQL Server. Porém, devido ao fato
 # de que plataformas grátis não aceitam esse banco (como Railway), resolvi migrar o banco de dados para MySQL, podendo assim
-# publicar o projeto em plataformas grátis. Para voltar para MySQL, use o docker-compose abaixo.
+# publicar o projeto em plataformas grátis. Para voltar para SQL Server, use o docker-compose abaixo.
 
 # This software was initially built to connect to a Microsoft SQL Server database. However, due to the fact
 # that free platforms do not accept this database (like Railway), I decided to migrate the database to MySQL, thus being able to
-# publish the project on free platforms. To switch back to MySQL, use the docker-compose below.
+# publish the project on free platforms. To switch back to SQL Server, use the docker-compose below.
 
 #version: '3'
 #services:
