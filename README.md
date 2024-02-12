@@ -14,6 +14,7 @@ Deploys:
 - ASP.NET Core
 - Entity Framework Core
 - MySQL (o código para migração para MS SQL Server está no projeto)
+- Docker
 - JWT
 - Testes de integração com xUnit
 - Arquitetura em Camadas
