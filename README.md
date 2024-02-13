@@ -98,7 +98,8 @@ O corpo da requisição deve seguir o formato:
 O corpo da requisição deve seguir o formato:
 ```
 {
-	"Name": "São Paulo"
+	"Name": "São Paulo",
+	"State": "SP"
 }
 ```
 <br>
@@ -109,9 +110,9 @@ O corpo da requisição deve seguir o formato:
 O corpo da requisição deve seguir o formato:
 ```
 {
-  "CityId": 1,
+	"CityId": 1,
 	"Name": "São Paulo",
-  "State": "SP"
+	"State": "SP"
 }
 ```
 <br>
