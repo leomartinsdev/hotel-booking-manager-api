@@ -12,7 +12,6 @@ namespace HotelManagerAPI.Repository
             _context = context;
         }
 
-        // 6. Desenvolva o endpoint GET /room/:hotelId
         public IEnumerable<RoomDto> GetRooms(int HotelId)
         {
             IEnumerable<RoomDto> Rooms = from room in _context.Rooms
@@ -37,7 +36,6 @@ namespace HotelManagerAPI.Repository
             return Rooms.ToList();
         }
 
-        // 7. Desenvolva o endpoint POST /room
         public RoomDto AddRoom(Room room)
         {
             _context.Rooms.Add(room);
@@ -66,7 +64,6 @@ namespace HotelManagerAPI.Repository
 
         }
 
-        // 8. Desenvolva o endpoint DELETE /room/:roomId
         public void DeleteRoom(int RoomId)
         {
             var deletedRoom = _context.Rooms.FirstOrDefault(e => e.RoomId == RoomId);

@@ -10,9 +10,7 @@ public class HotelManagerAPIContext : DbContext, IHotelManagerAPIContext
     public DbSet<Booking> Bookings { get; set; }
     public DbSet<User> Users { get; set; }
     public HotelManagerAPIContext(DbContextOptions<HotelManagerAPIContext> options) : base(options)
-    {
-        // Seeder.SeedUserAdmin(this);
-    }
+    { }
     public HotelManagerAPIContext() { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -25,8 +23,6 @@ public class HotelManagerAPIContext : DbContext, IHotelManagerAPIContext
 
         var connectionString = $"Server={server},{port};Database={database};User={user};Password={password};TrustServerCertificate=True;";
         optionsBuilder.UseSqlServer(connectionString);
-        // AGORA FALTA DAR OS COMPOSES DE NOVO E VER SE FUNCIONA A API E O DB NO AZURE
-        // optionsBuilder.UseSqlServer(@"Server=localhost;Database=HotelManager;User=SA;Password=HotelManager01!;TrustServerCertificate=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

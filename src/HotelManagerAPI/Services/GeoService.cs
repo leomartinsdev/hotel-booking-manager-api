@@ -14,7 +14,6 @@ namespace HotelManagerAPI.Services
             _client = client;
         }
 
-        // 11. Desenvolva o endpoint GET /geo/status
         public async Task<object> GetGeoStatus()
         {
             var response = await _client.GetAsync("https://nominatim.openstreetmap.org/status.php?format=json");
@@ -32,7 +31,6 @@ namespace HotelManagerAPI.Services
             return result;
         }
 
-        // 12. Desenvolva o endpoint GET /geo/address
         public async Task<GeoDtoResponse> GetGeoLocation(GeoDto geoDto)
         {
             var response = await _client.GetAsync($"https://nominatim.openstreetmap.org/search?street={geoDto.Address}&city={geoDto.City}&country=Brazil&state={geoDto.State}&format=json&limit=1");
@@ -53,7 +51,6 @@ namespace HotelManagerAPI.Services
             };
         }
 
-        // 12. Desenvolva o endpoint GET /geo/address
         public async Task<List<GeoDtoHotelResponse>> GetHotelsByGeo(GeoDto geoDto, IHotelRepository repository)
         {
             var hotels = repository.GetHotels();

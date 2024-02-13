@@ -11,7 +11,6 @@ namespace HotelManagerAPI.Repository
             _context = context;
         }
 
-        // 4. Desenvolva o endpoint GET /hotel
         public IEnumerable<HotelDto> GetHotels()
         {
             IEnumerable<HotelDto> Hotels = from hotel in _context.Hotels
@@ -29,7 +28,6 @@ namespace HotelManagerAPI.Repository
             return Hotels.ToList();
         }
 
-        // 5. Desenvolva o endpoint POST /hotel
         public HotelDto AddHotel(Hotel hotel)
         {
             _context.Hotels.Add(hotel);

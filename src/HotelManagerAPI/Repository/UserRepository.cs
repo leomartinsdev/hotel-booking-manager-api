@@ -81,13 +81,13 @@ namespace HotelManagerAPI.Repository
         public IEnumerable<UserDto> GetUsers()
         {
             IEnumerable<UserDto> users = from user in _context.Users
-                                            select new UserDto()
-                                            {
-                                                userId = user.UserId,
-                                                Name = user.Name,
-                                                Email = user.Email,
-                                                userType = user.UserType
-                                            };
+                                         select new UserDto()
+                                         {
+                                             userId = user.UserId,
+                                             Name = user.Name,
+                                             Email = user.Email,
+                                             userType = user.UserType
+                                         };
 
             return users.ToList();
         }

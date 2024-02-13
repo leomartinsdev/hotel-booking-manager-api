@@ -10,8 +10,6 @@ namespace HotelManagerAPI.Repository
         {
             _context = context;
         }
-
-        // 4. Refatore o endpoint GET /city
         public IEnumerable<CityDto> GetCities()
         {
             IEnumerable<CityDto> Cities = from city in _context.Cities
@@ -24,7 +22,6 @@ namespace HotelManagerAPI.Repository
             return Cities.ToList();
         }
 
-        // 2. Refatore o endpoint POST /city
         public CityDto AddCity(City city)
         {
             _context.Cities.Add(city);
@@ -42,7 +39,6 @@ namespace HotelManagerAPI.Repository
             return query.First();
         }
 
-        // 3. Desenvolva o endpoint PUT /city
         public CityDto UpdateCity(City city)
         {
             _context.Cities.Update(city);

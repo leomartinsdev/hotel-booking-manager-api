@@ -2,7 +2,6 @@ namespace HotelManagerAPI.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-// 1. Implemente as models da aplicação
 public class User {
     [Key]
     public int UserId { get; set; }
