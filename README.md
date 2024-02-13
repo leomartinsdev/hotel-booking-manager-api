@@ -1,5 +1,5 @@
 # Hotel Booking Manager API 🏨
-Software de booking de várias redes de hóteis no formato de uma RESTful API com operações de CRUD, autenticação, autorização e cálculo de distância dos hotéis.
+Software de booking de várias redes de hotéis no formato de uma RESTful API com operações de CRUD, autenticação, autorização e cálculo de distância dos hotéis.
 <br><br>
 O projeto foi feito utilizando C#, ASP.NET Core, .NET 6.0, SQL Server, Entity Framework Core (ORM) para gerenciamento do banco de dados e dockerizado para fácil execução em qualquer máquina.<br><br>
 A autenticação e autorização foi feita com JWT. Os testes estão sendo desenvolvidos usando xUnit.<br><br>
