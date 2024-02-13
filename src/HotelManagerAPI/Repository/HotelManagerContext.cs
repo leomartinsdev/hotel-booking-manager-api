@@ -11,27 +11,22 @@ public class HotelManagerAPIContext : DbContext, IHotelManagerAPIContext
     public DbSet<User> Users { get; set; }
     public HotelManagerAPIContext(DbContextOptions<HotelManagerAPIContext> options) : base(options)
     {
+        // Seeder.SeedUserAdmin(this);
     }
     public HotelManagerAPIContext() { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        if (!optionsBuilder.IsConfigured)
-        {
-            string server = Environment.GetEnvironmentVariable("DB_SERVER") ?? "localhost";
-            string user = Environment.GetEnvironmentVariable("DB_USER") ?? "root";
-            string password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "123456";
-            string port = Environment.GetEnvironmentVariable("DB_PORT") ?? "3308";
-            string database = Environment.GetEnvironmentVariable("DB_DATABASE") ?? "hotel_manager_db";
+        var server = Environment.GetEnvironmentVariable("DB_HOST") ?? "db";
+        var port = Environment.GetEnvironmentVariable("DB_PORT") ?? "1433";
+        var user = Environment.GetEnvironmentVariable("DB_USER") ?? "SA";
+        var password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "HotelManager01!";
+        var database = "HotelManager";
 
-            var connectionString = $"Server={server};User Id={user};Password={password};Port={port};Database={database};";
-            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), null);
-        }
-        /*
-        Para usar com SQL Server, use a connection string abaixo.
-        To Use with SQL Server, use the connection string below.
-        optionsBuilder.UseSqlServer(@"Server={server};Database={database};User={user};Password={password};TrustServerCertificate=True;");
-        */
+        var connectionString = $"Server={server},{port};Database={database};User={user};Password={password};TrustServerCertificate=True;";
+        optionsBuilder.UseSqlServer(connectionString);
+        // AGORA FALTA DAR OS COMPOSES DE NOVO E VER SE FUNCIONA A API E O DB NO AZURE
+        // optionsBuilder.UseSqlServer(@"Server=localhost;Database=HotelManager;User=SA;Password=HotelManager01!;TrustServerCertificate=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

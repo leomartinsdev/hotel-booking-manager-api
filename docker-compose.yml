@@ -1,28 +1,30 @@
-# Esse docker-compose é usado para rodar um container MySQL como seu banco de dados.
+# Esse docker-compose é usado para rodar um container SQL Server como seu banco de dados.
 # Para usá-lo, execute no terminal: docker-compose up -d --build
 
 version: '3'
 services:
-  dbmysql:
-    image: mysql:8.0.21
-    container_name: hotel_manager_db_mysql
+  backend:
+    container_name: hotel_booking_manager
+    build: ./src/HotelManagerAPI
     ports:
-      - 3308:3306
+      - 8080:8080
+    volumes:
+      - ./src/HotelManagerAPI:/app-dev
     environment:
-      - MYSQL_ROOT_PASSWORD=123456
-    env_file:
-      - .env
+      - DB_HOST=db
+      - DB_PORT=1433
+      - DB_USER=sa
+      - DB_PASSWORD=HotelManager01!
     restart: 'always'
-
-
-#version: '3'
-#services:
-#  db:
-#    image: mcr.microsoft.com/azure-sql-edge:latest
-#    container_name: hotel_booking_manager_db
-#    ports:
-#        - 1433:1433
-#    environment:
-#      - ACCEPT_EULA=Y
-#      - MSSQL_SA_PASSWORD=HotelManager!
-#      - MSSQL_PID=Developer
+    depends_on:
+      - db
+  db:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    container_name: hotel_booking_manager_db
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=HotelManager01!
+      - MSSQL_PID=Developer
+    restart: 'always'
