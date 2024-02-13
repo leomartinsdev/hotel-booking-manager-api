@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using HotelManagerAPI.Models;
 using HotelManagerAPI.Services;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Components.Web;
 using System.ComponentModel;
@@ -105,6 +106,15 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<HotelManagerAPIContext>();
+
+    context.Database.Migrate();
+
+    Seeder.SeedUserAdmin(context);
+}
 
 app.MapControllers();
 
