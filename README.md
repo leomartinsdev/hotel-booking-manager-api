@@ -10,7 +10,7 @@ A autenticação e autorização foi feita com JWT. Os testes estão sendo desen
 - .NET 6.0
 - ASP.NET Core
 - Entity Framework Core
-- MySQL (o código para migração para MS SQL Server está no projeto)
+- SQL Server
 - Docker
 - JWT
 - Testes de integração com xUnit
