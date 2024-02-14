@@ -19,7 +19,7 @@ A autenticação e autorização foi feita com JWT. Os testes estão sendo desen
 ## Como rodar o projeto:
 1)  Clone o repositório;
 2)  Entre no diretório do projeto;
-3)  Inicie o container do banco de dados: `docker-compose up -d --build`;
+3)  Inicie os containeres: `docker-compose up -d --build`;
 4)  Pronto! Toda a aplicação está configurada em um docker de maneira que, ao rodar o comando acima, o Docker: cria um container para o banco de dados, um container para a api (baseada no build da imagem do Dockerfile em src/HotelManagerAPI/), executa as migrations do banco de dados e popula ela usando os Seeders.
 6)  Extra: você pode usar o comando `docker ps` no terminal para verificar se ambos os containeres estão rodando.
 
