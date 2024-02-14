@@ -13,7 +13,7 @@ A autenticação e autorização foi feita com JWT. Os testes estão sendo desen
 - SQL Server
 - Docker
 - JWT
-- Testes de integração com xUnit
+- Testes de integração com xUnit (em desenvolvimento)
 - Arquitetura em Camadas
 
 ## Como rodar o projeto:
